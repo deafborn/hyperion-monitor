@@ -9,7 +9,7 @@ from playwright.async_api import async_playwright
 # Конфигурация
 # ==============================
 URL = "https://hyperion.xyz/vault/0xab8fdae5dd99a4379362c01218cd7aef40758cd8111d11853ce6efd2f82b7cad?poolId=0xd3894aca06d5f42b27c89e6f448114b3ed6a1ba07f992a58b2126c71dd83c127"
-THRESHOLD = 1000          # пороговое значение в USDC
+THRESHOLD = 0.1          # пороговое значение в USDC
 CHECK_INTERVAL = 300      # интервал проверки в секундах (5 минут)
 
 TG_TOKEN = "8344264816:AAEgvBxAd8j3D8oIV8tqGYp6qorhY02DTuU"
